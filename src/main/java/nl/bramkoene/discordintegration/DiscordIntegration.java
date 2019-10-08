@@ -1,17 +1,55 @@
 package nl.bramkoene.discordintegration;
 
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.OnlineStatus;
+import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.entities.Guild;
+import net.dv8tion.jda.api.entities.Member;
+import net.dv8tion.jda.api.entities.Role;
+import nl.bramkoene.discordintegration.discord.ConfigManager;
+import nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
 
 public final class DiscordIntegration extends JavaPlugin {
 
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
+    public JDA api;
+    public ConfigManager configManager;
 
+    @Override
+    public void onEnable(){
+        // Plugin startup logic
+        try{
+            setupApi();
+        }catch(Exception e){
+            Bukkit.getLogger().warning(e.toString());
+        }
+
+        api.addEventListener(new DiscordCommunicationHandler(this));
+        Activity activity = Activity.playing("Say !linkmc to get started");
+        api.getPresence().setPresence(activity, false);
+        for (Player player : Bukkit.getServer().getOnlinePlayers()){
+            Bukkit.getLogger().info(player.getUniqueId().toString());
+        }
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+    }
+
+    void setupApi() throws Exception{
+        api = new JDABuilder(secret.token).build();
+    }
+
+    public ConfigManager getConfigManager() {
+        return configManager;
+    }
+
+    public JDA getApi() {
+        return api;
     }
 }
