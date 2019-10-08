@@ -1,0 +1,4 @@
+name: DiscordIntegration
+version: ${project.version}
+main: nl.bramkoene.discordintegration.DiscordIntegration
+api-version: 1.13
