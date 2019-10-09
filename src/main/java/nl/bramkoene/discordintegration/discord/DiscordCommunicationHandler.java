@@ -1,5 +1,8 @@
 package nl.bramkoene.discordintegration.discord;
 
+import kong.unirest.HttpResponse;
+import kong.unirest.JsonNode;
+import kong.unirest.Unirest;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.MessageChannel;
 import net.dv8tion.jda.api.entities.PrivateChannel;
@@ -9,6 +12,7 @@ import nl.bramkoene.discordintegration.DiscordIntegration;
 import org.bukkit.Bukkit;
 
 import java.util.UUID;
+import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class DiscordCommunicationHandler extends ListenerAdapter {
@@ -47,10 +51,18 @@ public class DiscordCommunicationHandler extends ListenerAdapter {
 
 
         try{
-            UUID uuid = UUID.fromString(content);
-            Bukkit.getPlayer(uuid);
-            plugin.getConfigManager().getPlayers().set("ConfirmedPlayers." + uuid.toString(), event.getAuthor().getId());
-            event.getChannel().sendMessage("Thank you. This is a valid uuid and your account is now linked").queue();
+            CompletableFuture<HttpResponse<JsonNode>> future = Unirest.get("https://api.mojang.com/users/profiles/minecraft/" + content)
+                    .asJsonAsync(response -> {
+                        int code = response.getStatus();
+                        JsonNode body = response.getBody();
+                        Bukkit.getLogger().info(body.toPrettyString());
+                        UUID uuid = UUID.fromString(content);
+                        Bukkit.getPlayer(uuid);
+                        plugin.getConfigManager().getPlayers().set("ConfirmedPlayers." + uuid.toString(), event.getAuthor().getId());
+                        plugin.getConfigManager().saveCollectors();
+                        String messagePlayer = "Thank you. This is a valid uuid and your account is now linked";
+                        event.getChannel().sendMessage(messagePlayer).queue();
+                    });
         } catch (IllegalArgumentException exception){
             //handle the case where string is not valid UUID
             event.getChannel().sendMessage("This is not a valid uuid please try again").queue();

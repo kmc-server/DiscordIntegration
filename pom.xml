@@ -109,5 +109,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>3.1.00</version>
+        </dependency>
     </dependencies>
 </project>
