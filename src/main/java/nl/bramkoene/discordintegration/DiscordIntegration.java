@@ -2,11 +2,7 @@ package nl.bramkoene.discordintegration;
 
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
-import net.dv8tion.jda.api.entities.Guild;
-import net.dv8tion.jda.api.entities.Member;
-import net.dv8tion.jda.api.entities.Role;
 import nl.bramkoene.discordintegration.discord.ConfigManager;
 import nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler;
 import org.bukkit.Bukkit;
@@ -21,6 +17,7 @@ public final class DiscordIntegration extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        this.configManager = new ConfigManager(this);
         // Plugin startup logic
         try{
             setupApi();
@@ -34,6 +31,7 @@ public final class DiscordIntegration extends JavaPlugin {
         for (Player player : Bukkit.getServer().getOnlinePlayers()){
             Bukkit.getLogger().info(player.getUniqueId().toString());
         }
+
     }
 
     @Override

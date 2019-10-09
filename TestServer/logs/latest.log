@@ -1,1285 +1,569 @@
-[23:01:08] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[23:01:08] [Server thread/INFO]: Loading properties
-[23:01:08] [Server thread/INFO]: This server is running Paper version git-Paper-209 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[23:01:08] [Server thread/INFO]: Debug logging is disabled
-[23:01:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:01:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:01:08] [Server thread/INFO]: Default game type: SURVIVAL
-[23:01:08] [Server thread/INFO]: Generating keypair
-[23:01:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:01:08] [Server thread/INFO]: Using default channel type
-[23:01:12] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:01:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:01:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:01:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:01:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:01:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:01:12] [Server thread/INFO]: Preparing level "world"
-[23:01:13] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:01:19] [Server thread/INFO]: Loaded 6 recipes
-[23:01:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:01:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:01:19] [Server thread/INFO]: View Distance: 10
-[23:01:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:01:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:01:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:01:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:01:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:01:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:01:19] [Server thread/INFO]: Mob Spawn Range: 8
-[23:01:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:01:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:01:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:01:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:01:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:01:19] [Server thread/INFO]: Max TNT Explosions: 100
-[23:01:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:01:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:01:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:01:20] [Server thread/INFO]: View Distance: 10
-[23:01:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:01:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:01:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:01:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:01:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:01:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:01:20] [Server thread/INFO]: Mob Spawn Range: 8
-[23:01:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:01:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:01:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:01:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:01:20] [Server thread/INFO]: Max TNT Explosions: 100
-[23:01:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:01:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:01:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:01:20] [Server thread/INFO]: View Distance: 10
-[23:01:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:01:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:01:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:01:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:01:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:01:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:01:20] [Server thread/INFO]: Mob Spawn Range: 8
-[23:01:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:01:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:01:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:01:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:01:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:01:20] [Server thread/INFO]: Max TNT Explosions: 100
-[23:01:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:01:20] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[23:01:21] [Server thread/INFO]: Preparing spawn area: 0%
-[23:01:21] [Server thread/INFO]: Preparing spawn area: 3%
-[23:01:22] [Server thread/INFO]: Preparing spawn area: 39%
-[23:01:22] [Server thread/INFO]: Preparing spawn area: 39%
-[23:01:24] [Server-Worker-1/INFO]: Preparing spawn area: 39%
-[23:01:24] [Server-Worker-1/INFO]: Preparing spawn area: 39%
-[23:01:24] [Server-Worker-2/INFO]: Preparing spawn area: 39%
-[23:01:24] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[23:01:24] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[23:01:25] [Server thread/INFO]: Preparing spawn area: 100%
-[23:01:25] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[23:01:26] [Server thread/INFO]: Preparing spawn area: 100%
-[23:01:26] [Server thread/INFO]: Preparing spawn area: 100%
-[23:01:27] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[23:01:27] [Server thread/INFO]: Time elapsed: 6275 ms
-[23:01:27] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[23:01:27] [Server thread/INFO]: Preparing spawn area: 0%
-[23:01:27] [Server thread/INFO]: Preparing spawn area: 64%
-[23:01:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[23:01:28] [Server thread/INFO]: Preparing spawn area: 100%
-[23:01:29] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[23:01:29] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[23:01:29] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[23:01:29] [Server thread/INFO]: Time elapsed: 2558 ms
-[23:01:29] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[23:01:29] [Server thread/INFO]: Preparing spawn area: 0%
-[23:01:30] [Server thread/INFO]: Preparing spawn area: 100%
-[23:01:30] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[23:01:31] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[23:01:31] [Server thread/INFO]: Time elapsed: 1247 ms
-[23:01:31] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:01:32] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:01:32] [Server thread/INFO]: Done (19.657s)! For help, type "help"
-[23:01:32] [Server thread/INFO]: Timings Reset
-[23:01:33] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:01:33] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:03:19] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:03:19] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:03:19] [Server thread/INFO]: Debug logging is disabled
-[23:03:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:03:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:03:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:03:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:03:19] [Server thread/INFO]: View Distance: 10
-[23:03:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:19] [Server thread/INFO]: Mob Spawn Range: 8
-[23:03:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:03:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:19] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:03:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:03:19] [Server thread/INFO]: View Distance: 10
-[23:03:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:19] [Server thread/INFO]: Mob Spawn Range: 8
-[23:03:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:03:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:19] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:03:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:03:19] [Server thread/INFO]: View Distance: 10
-[23:03:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:19] [Server thread/INFO]: Mob Spawn Range: 8
-[23:03:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:03:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:03:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:19] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:19] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:03:19] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:03:19] [Server thread/INFO]: Loaded 6 recipes
-[23:03:19] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:03:19] [Server thread/INFO]: Loaded 6 recipes
-[23:03:20] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:03:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:03:20] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:03:20] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:03:20] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:03:20] [Server thread/INFO]: Timings Reset
-[23:03:21] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:03:21] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:03:28] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:03:36] [JDA MainWS-ReadThread/WARN]: [net.dv8tion.jda.internal.entities.EntityBuilder] Encountered exception trying to parse a presence! UserID: 270904126974590976 Message: zip file closed Enable debug for details
-[23:12:05] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:12:05] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.api.JDA] One of the EventListeners had an uncaught exception
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.TextChannelImpl.sendMessage(TextChannelImpl.java:323) ~[?:?]
-	at nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler.onMessageReceived(DiscordCommunicationHandler.java:20) ~[?:?]
-	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:375) ~[?:?]
-	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96) ~[?:?]
-	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64) ~[?:?]
-	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:148) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:12:18] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.api.JDA] One of the EventListeners had an uncaught exception
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.TextChannelImpl.sendMessage(TextChannelImpl.java:323) ~[?:?]
-	at nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler.onMessageReceived(DiscordCommunicationHandler.java:20) ~[?:?]
-	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:375) ~[?:?]
-	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96) ~[?:?]
-	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64) ~[?:?]
-	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:148) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:12:18] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:21:24] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:21:24] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:21:24] [Server thread/INFO]: Debug logging is disabled
-[23:21:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:21:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:21:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:21:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:21:24] [Server thread/INFO]: View Distance: 10
-[23:21:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:21:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:21:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:21:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:21:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:21:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:21:24] [Server thread/INFO]: Mob Spawn Range: 8
-[23:21:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:21:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:21:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:21:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:21:24] [Server thread/INFO]: Max TNT Explosions: 100
-[23:21:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:21:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:21:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:21:24] [Server thread/INFO]: View Distance: 10
-[23:21:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:21:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:21:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:21:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:21:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:21:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:21:24] [Server thread/INFO]: Mob Spawn Range: 8
-[23:21:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:21:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:21:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:21:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:21:24] [Server thread/INFO]: Max TNT Explosions: 100
-[23:21:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:21:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:21:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:21:24] [Server thread/INFO]: View Distance: 10
-[23:21:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:21:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:21:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:21:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:21:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:21:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:21:24] [Server thread/INFO]: Mob Spawn Range: 8
-[23:21:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:21:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:21:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:21:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:21:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:21:24] [Server thread/INFO]: Max TNT Explosions: 100
-[23:21:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:21:24] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:21:24] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:21:25] [Server thread/INFO]: Loaded 6 recipes
-[23:21:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:21:25] [Server thread/INFO]: Loaded 6 recipes
-[23:21:25] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:21:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:21:25] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:21:26] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:21:26] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:21:26] [Server thread/INFO]: Timings Reset
-[23:21:26] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:21:26] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:21:35] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:21:35] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:23:53] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:23:53] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:23:53] [Server thread/INFO]: Debug logging is disabled
-[23:23:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:23:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:23:53] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:23:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:23:53] [Server thread/INFO]: View Distance: 10
-[23:23:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:23:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:23:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:23:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:23:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:23:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:23:53] [Server thread/INFO]: Mob Spawn Range: 8
-[23:23:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:23:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:23:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:23:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:23:53] [Server thread/INFO]: Max TNT Explosions: 100
-[23:23:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:23:53] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:23:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:23:53] [Server thread/INFO]: View Distance: 10
-[23:23:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:23:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:23:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:23:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:23:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:23:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:23:53] [Server thread/INFO]: Mob Spawn Range: 8
-[23:23:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:23:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:23:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:23:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:23:53] [Server thread/INFO]: Max TNT Explosions: 100
-[23:23:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:23:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:23:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:23:53] [Server thread/INFO]: View Distance: 10
-[23:23:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:23:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:23:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:23:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:23:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:23:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:23:53] [Server thread/INFO]: Mob Spawn Range: 8
-[23:23:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:23:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:23:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:23:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:23:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:23:53] [Server thread/INFO]: Max TNT Explosions: 100
-[23:23:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:23:53] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:23:53] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:23:54] [Server thread/INFO]: Loaded 6 recipes
-[23:23:54] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:23:54] [Server thread/INFO]: Loaded 6 recipes
-[23:23:54] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:23:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:23:54] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:23:55] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:23:55] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:23:55] [Server thread/INFO]: Timings Reset
-[23:23:55] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:23:56] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:24:20] [User Authenticator #1/INFO]: UUID of player minestarnl is c71dc23a-6755-36dd-ad66-ee66adf8e428
-[23:24:20] [Server thread/INFO]: minestarnl[/127.0.0.1:52495] logged in with entity id 211 at ([world]-234.37484022820078, 63.0, 50.886726520023274)
-[23:24:30] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:24:30] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:24:30] [Server thread/INFO]: Debug logging is disabled
-[23:24:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:24:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:24:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:24:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:24:30] [Server thread/INFO]: View Distance: 10
-[23:24:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:24:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:24:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:24:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:24:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:24:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:24:30] [Server thread/INFO]: Mob Spawn Range: 8
-[23:24:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:24:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:24:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:24:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:24:30] [Server thread/INFO]: Max TNT Explosions: 100
-[23:24:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:24:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:24:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:24:30] [Server thread/INFO]: View Distance: 10
-[23:24:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:24:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:24:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:24:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:24:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:24:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:24:30] [Server thread/INFO]: Mob Spawn Range: 8
-[23:24:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:24:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:24:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:24:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:24:30] [Server thread/INFO]: Max TNT Explosions: 100
-[23:24:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:24:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:24:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:24:30] [Server thread/INFO]: View Distance: 10
-[23:24:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:24:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:24:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:24:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:24:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:24:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:24:30] [Server thread/INFO]: Mob Spawn Range: 8
-[23:24:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:24:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:24:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:24:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:24:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:24:30] [Server thread/INFO]: Max TNT Explosions: 100
-[23:24:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:24:30] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:24:30] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:24:31] [Server thread/INFO]: Loaded 6 recipes
-[23:24:31] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:24:31] [Server thread/INFO]: Loaded 6 recipes
-[23:24:31] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:24:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:24:31] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:24:32] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:24:32] [Server thread/INFO]: c71dc23a-6755-36dd-ad66-ee66adf8e428
-[23:24:32] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:24:32] [Server thread/INFO]: Timings Reset
-[23:24:33] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:24:33] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:30:52] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:30:52] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:30:52] [Server thread/INFO]: Debug logging is disabled
-[23:30:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:30:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:30:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:30:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:30:52] [Server thread/INFO]: View Distance: 10
-[23:30:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:30:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:30:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:30:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:30:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:30:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:30:52] [Server thread/INFO]: Mob Spawn Range: 8
-[23:30:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:30:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:30:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:30:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:30:52] [Server thread/INFO]: Max TNT Explosions: 100
-[23:30:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:30:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:30:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:30:52] [Server thread/INFO]: View Distance: 10
-[23:30:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:30:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:30:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:30:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:30:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:30:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:30:52] [Server thread/INFO]: Mob Spawn Range: 8
-[23:30:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:30:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:30:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:30:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:30:52] [Server thread/INFO]: Max TNT Explosions: 100
-[23:30:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:30:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:30:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:30:52] [Server thread/INFO]: View Distance: 10
-[23:30:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:30:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:30:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:30:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:30:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:30:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:30:52] [Server thread/INFO]: Mob Spawn Range: 8
-[23:30:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:30:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:30:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:30:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:30:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:30:52] [Server thread/INFO]: Max TNT Explosions: 100
-[23:30:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:30:53] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:30:53] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:30:53] [Server thread/INFO]: Loaded 6 recipes
-[23:30:53] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:30:53] [Server thread/INFO]: Loaded 6 recipes
-[23:30:53] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:30:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:30:53] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:30:54] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:30:54] [Server thread/INFO]: c71dc23a-6755-36dd-ad66-ee66adf8e428
-[23:30:54] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:30:54] [Server thread/INFO]: Timings Reset
-[23:30:54] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:30:55] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:31:08] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:31:08] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"id":"265775528982740992","avatar":"a_b1b2c6820c7762e97d75dc014731fb64","username":"minestarnl","discriminator":"6969"},"type":0,"mention_roles":[],"nonce":"631242200461606912","edited_timestamp":null,"content":"e64e9f15-7cf2-427e-87fa-8dd7b253a58a","tts":false,"mentions":[],"member":{"joined_at":"2019-10-03T19:34:45.986000+00:00","roles":[],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631242188864618507","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:31:05.738000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:31:08] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:31:08] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:31:08] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"id":"265775528982740992","avatar":"a_b1b2c6820c7762e97d75dc014731fb64","username":"minestarnl","discriminator":"6969"},"type":0,"mention_roles":[],"nonce":"631242200461606912","edited_timestamp":null,"content":"e64e9f15-7cf2-427e-87fa-8dd7b253a58a","tts":false,"mentions":[],"member":{"joined_at":"2019-10-03T19:34:45.986000+00:00","roles":[],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631242188864618507","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:31:05.738000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:31:08] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"bot":true,"id":"631216007851278378","avatar":null,"username":"KMC-Gang-MCBOT","discriminator":"8588"},"type":0,"mention_roles":[],"nonce":null,"edited_timestamp":null,"content":"Thank you. This is a valid uuid and your account is now linked","tts":false,"mentions":[],"member":{"premium_since":null,"nick":null,"joined_at":"2019-10-08T19:50:40.014099+00:00","roles":["631216915209125918"],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631242189661274116","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:31:05.928000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:31:08] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"bot":true,"id":"631216007851278378","avatar":null,"username":"KMC-Gang-MCBOT","discriminator":"8588"},"type":0,"mention_roles":[],"nonce":null,"edited_timestamp":null,"content":"Thank you. This is a valid uuid and your account is now linked","tts":false,"mentions":[],"member":{"premium_since":null,"nick":null,"joined_at":"2019-10-08T19:50:40.014099+00:00","roles":["631216915209125918"],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631242189661274116","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:31:05.928000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:36:49] [Server thread/INFO]: minestarnl was slain by Zombie
-[23:38:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:38:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:38:50] [Server thread/INFO]: Debug logging is disabled
-[23:38:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:38:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:38:50] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:38:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:38:50] [Server thread/INFO]: View Distance: 10
-[23:38:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:38:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:38:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:38:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:38:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:38:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:38:50] [Server thread/INFO]: Mob Spawn Range: 8
-[23:38:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:38:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:38:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:38:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:38:50] [Server thread/INFO]: Max TNT Explosions: 100
-[23:38:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:38:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:38:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:38:50] [Server thread/INFO]: View Distance: 10
-[23:38:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:38:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:38:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:38:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:38:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:38:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:38:50] [Server thread/INFO]: Mob Spawn Range: 8
-[23:38:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:38:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:38:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:38:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:38:50] [Server thread/INFO]: Max TNT Explosions: 100
-[23:38:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:38:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:38:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[23:38:50] [Server thread/INFO]: View Distance: 10
-[23:38:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:38:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:38:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:38:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:38:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:38:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:38:50] [Server thread/INFO]: Mob Spawn Range: 8
-[23:38:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:38:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:38:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:38:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:38:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:38:50] [Server thread/INFO]: Max TNT Explosions: 100
-[23:38:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:38:50] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
-[23:38:50] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:38:50] [Server thread/INFO]: Loaded 6 recipes
-[23:38:50] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:38:50] [Server thread/INFO]: Loaded 6 recipes
-[23:38:50] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
-[23:38:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:38:50] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
-[23:38:51] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
-[23:38:51] [Server thread/INFO]: c71dc23a-6755-36dd-ad66-ee66adf8e428
-[23:38:51] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:38:51] [Server thread/INFO]: Timings Reset
-[23:38:52] [JDA MainWS-WriteThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[23:38:52] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
-[23:39:01] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:39:01] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:39:01] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"id":"265775528982740992","avatar":"a_b1b2c6820c7762e97d75dc014731fb64","username":"minestarnl","discriminator":"6969"},"type":0,"mention_roles":[],"nonce":"631244183188799488","edited_timestamp":null,"content":"e64e9f15-7cf2-427e-87fa-8dd7b253a58a","tts":false,"mentions":[],"member":{"joined_at":"2019-10-03T19:34:45.986000+00:00","roles":[],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631244171289690133","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:38:58.385000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:39:01] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"id":"265775528982740992","avatar":"a_b1b2c6820c7762e97d75dc014731fb64","username":"minestarnl","discriminator":"6969"},"type":0,"mention_roles":[],"nonce":"631244183188799488","edited_timestamp":null,"content":"e64e9f15-7cf2-427e-87fa-8dd7b253a58a","tts":false,"mentions":[],"member":{"joined_at":"2019-10-03T19:34:45.986000+00:00","roles":[],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631244171289690133","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:38:58.385000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:39:01] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:39:01] [JDA MainWS-ReadThread/INFO]: <@265775528982740992>
-[23:39:01] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.api.JDA] One of the EventListeners had an uncaught exception
+[08:12:48] [Server thread/INFO]: Loading properties
+[08:12:48] [Server thread/INFO]: This server is running Paper version git-Paper-209 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[08:12:48] [Server thread/INFO]: Debug logging is disabled
+[08:12:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:12:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:12:48] [Server thread/INFO]: Default game type: SURVIVAL
+[08:12:48] [Server thread/INFO]: Generating keypair
+[08:12:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:12:49] [Server thread/INFO]: Using default channel type
+[08:12:56] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
+[08:12:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:12:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:12:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:12:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:12:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:12:56] [Server thread/INFO]: Preparing level "world"
+[08:12:56] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:13:02] [Server thread/INFO]: Loaded 6 recipes
+[08:13:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:13:02] [Server thread/INFO]: View Distance: 10
+[08:13:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:13:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:13:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:13:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:13:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:13:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:13:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:13:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:13:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:13:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:13:02] [Server thread/INFO]: Mob Spawn Range: 8
+[08:13:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:13:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:13:02] [Server thread/INFO]: Max TNT Explosions: 100
+[08:13:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:13:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:13:03] [Server thread/INFO]: View Distance: 10
+[08:13:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:13:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:13:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:13:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:13:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:13:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:13:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:13:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:13:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:13:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:13:03] [Server thread/INFO]: Mob Spawn Range: 8
+[08:13:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:13:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Max TNT Explosions: 100
+[08:13:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:13:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:13:03] [Server thread/INFO]: View Distance: 10
+[08:13:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:13:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:13:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:13:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:13:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:13:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:13:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:13:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:13:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:13:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:13:03] [Server thread/INFO]: Mob Spawn Range: 8
+[08:13:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:13:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:13:03] [Server thread/INFO]: Max TNT Explosions: 100
+[08:13:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:13:03] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[08:13:03] [Server thread/INFO]: Preparing spawn area: 0%
+[08:13:04] [Server thread/INFO]: Preparing spawn area: 2%
+[08:13:04] [Server thread/INFO]: Preparing spawn area: 4%
+[08:13:05] [Server thread/INFO]: Preparing spawn area: 4%
+[08:13:05] [Server thread/INFO]: Preparing spawn area: 4%
+[08:13:06] [Server thread/INFO]: Preparing spawn area: 4%
+[08:13:07] [Server-Worker-2/INFO]: Preparing spawn area: 4%
+[08:13:07] [Server-Worker-2/INFO]: Preparing spawn area: 4%
+[08:13:07] [Server-Worker-1/INFO]: Preparing spawn area: 64%
+[08:13:08] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[08:13:08] [Server thread/INFO]: Preparing spawn area: 100%
+[08:13:09] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[08:13:09] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:10] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:10] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[08:13:11] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[08:13:11] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[08:13:11] [Server thread/INFO]: Time elapsed: 7829 ms
+[08:13:11] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[08:13:11] [Server thread/INFO]: Preparing spawn area: 0%
+[08:13:11] [Server thread/INFO]: Preparing spawn area: 31%
+[08:13:12] [Server thread/INFO]: Preparing spawn area: 98%
+[08:13:12] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:13] [Server thread/INFO]: Preparing spawn area: 100%
+[08:13:13] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:14] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:15] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[08:13:15] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[08:13:15] [Server thread/INFO]: Time elapsed: 3674 ms
+[08:13:15] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[08:13:15] [Server thread/INFO]: Preparing spawn area: 0%
+[08:13:15] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:16] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[08:13:16] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[08:13:16] [Server thread/INFO]: Time elapsed: 1175 ms
+[08:13:16] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
+[08:13:18] [Server thread/WARN]: javax.security.auth.login.LoginException: The provided token is invalid!
+[08:13:18] [Server thread/ERROR]: Error occurred while enabling DiscordIntegration v1.0 (Is it up to date?)
 java.lang.NullPointerException: null
-	at nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler.onMessageReceived(DiscordCommunicationHandler.java:52) ~[?:?]
-	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:375) ~[?:?]
-	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96) ~[?:?]
-	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64) ~[?:?]
-	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:148) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:39:01] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"bot":true,"id":"631216007851278378","avatar":null,"username":"KMC-Gang-MCBOT","discriminator":"8588"},"type":0,"mention_roles":[],"nonce":null,"edited_timestamp":null,"content":"Thank you. This is a valid uuid and your account is now linked","tts":false,"mentions":[],"member":{"premium_since":null,"nick":null,"joined_at":"2019-10-08T19:50:40.014099+00:00","roles":["631216915209125918"],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631244172917211147","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:38:58.773000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:39:01] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	MESSAGE_CREATE -> {"mention_everyone":false,"pinned":false,"attachments":[],"author":{"bot":true,"id":"631216007851278378","avatar":null,"username":"KMC-Gang-MCBOT","discriminator":"8588"},"type":0,"mention_roles":[],"nonce":null,"edited_timestamp":null,"content":"Thank you. This is a valid uuid and your account is now linked","tts":false,"mentions":[],"member":{"premium_since":null,"nick":null,"joined_at":"2019-10-08T19:50:40.014099+00:00","roles":["631216915209125918"],"hoisted_role":null,"deaf":false,"mute":false},"guild_id":"629400974317977630","id":"631244172917211147","embeds":[],"channel_id":"629400974317977632","timestamp":"2019-10-08T21:38:58.773000+00:00"}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:871) ~[?:?]
-	at net.dv8tion.jda.internal.entities.EntityBuilder.createMessage(EntityBuilder.java:855) ~[?:?]
-	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:59) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
-[23:40:02] [JDA MainWS-ReadThread/ERROR]: [net.dv8tion.jda.internal.requests.WebSocketClient] Got an unexpected error. Please redirect following message to the devs:
-	CHANNEL_UPDATE -> {"permission_overwrites":[{"allow":805309457,"deny":0,"id":"629400974317977630","type":"role"}],"last_message_id":"631244172917211147","nsfw":false,"rate_limit_per_user":0,"parent_id":"629400974317977631","name":"general","guild_id":"629400974317977630","topic":null,"position":0,"id":"629400974317977632","type":0}
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(Unknown Source) ~[?:1.8.0_211]
-	at java.util.zip.ZipFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getEntry(Unknown Source) ~[?:1.8.0_211]
-	at java.util.jar.JarFile.getJarEntry(Unknown Source) ~[?:1.8.0_211]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[patched_1.14.4.jar:git-Paper-209]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-209]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_211]
-	at net.dv8tion.jda.internal.handle.ChannelUpdateHandler.handleInternally(ChannelUpdateHandler.java:69) ~[?:?]
-	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:37) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:838) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:737) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:716) ~[?:?]
-	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:876) ~[?:?]
-	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108) ~[?:?]
-	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64) ~[?:?]
-	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
+	at nl.bramkoene.discordintegration.DiscordIntegration.onEnable(DiscordIntegration.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:474) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:290) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:876) ~[patched_1.14.4.jar:git-Paper-209]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[08:13:18] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
+[08:13:18] [Server thread/INFO]: Done (22.169s)! For help, type "help"
+[08:13:18] [Server thread/INFO]: Timings Reset
+[08:14:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:14:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:14:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:14:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:14:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:14:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[08:15:12] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[08:15:12] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[08:15:12] [Server thread/INFO]: Debug logging is disabled
+[08:15:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:15:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:15:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:15:12] [Server thread/INFO]: View Distance: 10
+[08:15:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:15:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:15:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:15:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:15:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:15:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:15:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:15:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:15:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:15:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:15:12] [Server thread/INFO]: Mob Spawn Range: 8
+[08:15:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:15:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Max TNT Explosions: 100
+[08:15:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:15:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:15:12] [Server thread/INFO]: View Distance: 10
+[08:15:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:15:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:15:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:15:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:15:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:15:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:15:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:15:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:15:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:15:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:15:12] [Server thread/INFO]: Mob Spawn Range: 8
+[08:15:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:15:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Max TNT Explosions: 100
+[08:15:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:15:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:15:12] [Server thread/INFO]: View Distance: 10
+[08:15:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:15:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:15:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:15:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:15:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:15:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:15:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:15:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:15:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:15:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:15:12] [Server thread/INFO]: Mob Spawn Range: 8
+[08:15:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:15:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:15:12] [Server thread/INFO]: Max TNT Explosions: 100
+[08:15:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:15:12] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:15:13] [Server thread/INFO]: Loaded 6 recipes
+[08:15:13] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:15:13] [Server thread/INFO]: Loaded 6 recipes
+[08:15:13] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
+[08:15:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:15:13] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
+[08:15:13] [Server thread/INFO]: [DiscordIntegration] Config Created
+[08:15:14] [Server thread/WARN]: javax.security.auth.login.LoginException: The provided token is invalid!
+[08:15:14] [Server thread/ERROR]: Error occurred while enabling DiscordIntegration v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at nl.bramkoene.discordintegration.DiscordIntegration.onEnable(DiscordIntegration.java:32) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:859) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.Bukkit.reload(Bukkit.java:610) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:701) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:456) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:418) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-209]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[08:15:14] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
+[08:15:14] [Server thread/INFO]: CONSOLE: Reload complete.
+[08:15:14] [Server thread/INFO]: Timings Reset
+[08:18:31] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[08:18:31] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[08:18:31] [Server thread/INFO]: Debug logging is disabled
+[08:18:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:18:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:18:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:18:31] [Server thread/INFO]: View Distance: 10
+[08:18:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:18:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:18:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:18:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:18:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:18:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:18:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:18:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:31] [Server thread/INFO]: Mob Spawn Range: 8
+[08:18:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:18:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Max TNT Explosions: 100
+[08:18:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:18:31] [Server thread/INFO]: View Distance: 10
+[08:18:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:18:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:18:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:18:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:18:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:18:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:18:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:18:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:31] [Server thread/INFO]: Mob Spawn Range: 8
+[08:18:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:18:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:18:31] [Server thread/INFO]: Max TNT Explosions: 100
+[08:18:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:18:32] [Server thread/INFO]: View Distance: 10
+[08:18:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:18:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:18:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:18:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:18:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:18:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:18:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:18:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:18:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:18:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:18:32] [Server thread/INFO]: Mob Spawn Range: 8
+[08:18:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:18:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:18:32] [Server thread/INFO]: Max TNT Explosions: 100
+[08:18:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:18:32] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:18:32] [Server thread/INFO]: Loaded 6 recipes
+[08:18:32] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:18:32] [Server thread/INFO]: Loaded 6 recipes
+[08:18:32] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
+[08:18:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:18:32] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
+[08:18:32] [Server thread/INFO]: [DiscordIntegration] Config Created
+[08:18:33] [Server thread/WARN]: javax.security.auth.login.LoginException: The provided token is invalid!
+[08:18:33] [Server thread/ERROR]: Error occurred while enabling DiscordIntegration v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at nl.bramkoene.discordintegration.DiscordIntegration.onEnable(DiscordIntegration.java:32) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:859) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.Bukkit.reload(Bukkit.java:610) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:701) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:456) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:418) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-209]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[08:18:33] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
+[08:18:33] [Server thread/INFO]: CONSOLE: Reload complete.
+[08:18:33] [Server thread/INFO]: Timings Reset
+[08:20:01] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[08:20:01] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[08:20:01] [Server thread/INFO]: Debug logging is disabled
+[08:20:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:20:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:20:01] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:20:01] [Server thread/INFO]: View Distance: 10
+[08:20:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:20:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:20:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:20:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:20:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:20:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:20:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:20:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:20:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:20:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:20:01] [Server thread/INFO]: Mob Spawn Range: 8
+[08:20:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:20:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Max TNT Explosions: 100
+[08:20:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:20:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:20:01] [Server thread/INFO]: View Distance: 10
+[08:20:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:20:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:20:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:20:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:20:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:20:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:20:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:20:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:20:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:20:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:20:01] [Server thread/INFO]: Mob Spawn Range: 8
+[08:20:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:20:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:20:01] [Server thread/INFO]: Max TNT Explosions: 100
+[08:20:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:20:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:20:02] [Server thread/INFO]: View Distance: 10
+[08:20:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:20:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:20:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:20:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:20:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:20:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:20:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:20:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:20:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[08:20:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:20:02] [Server thread/INFO]: Mob Spawn Range: 8
+[08:20:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:20:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:20:02] [Server thread/INFO]: Max TNT Explosions: 100
+[08:20:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:20:02] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:20:02] [Server thread/INFO]: Loaded 6 recipes
+[08:20:02] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[08:20:02] [Server thread/INFO]: Loaded 6 recipes
+[08:20:02] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
+[08:20:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:20:02] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
+[08:20:02] [Server thread/INFO]: [DiscordIntegration] Config Created
+[08:20:03] [Server thread/WARN]: javax.security.auth.login.LoginException: The provided token is invalid!
+[08:20:03] [Server thread/ERROR]: Error occurred while enabling DiscordIntegration v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at nl.bramkoene.discordintegration.DiscordIntegration.onEnable(DiscordIntegration.java:34) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:859) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.Bukkit.reload(Bukkit.java:610) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:701) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:456) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:418) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-209]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[08:20:03] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
+[08:20:03] [Server thread/INFO]: CONSOLE: Reload complete.
+[08:20:03] [Server thread/INFO]: Timings Reset
