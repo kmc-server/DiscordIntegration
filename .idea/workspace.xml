@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e842e1-50b1-46c3-8f35-8564e1be9e6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_konghq_unirest_java_3_1_00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/bramkoene/discordintegration/uuid/MojangUuidResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordIntegration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordIntegration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/plugins/DiscordIntegration-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/plugins/DiscordIntegration-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_nether/DIM-1/data/raids_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_nether/DIM-1/data/raids_nether.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_nether/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_nether/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_nether/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_nether/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_the_end/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_the_end/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_the_end/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestServer/world_the_end/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/TestServer/world_the_end/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/bramkoene/discordintegration/discord/DiscordCommunicationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/bramkoene/discordintegration/discord/DiscordCommunicationHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="42e842e1-50b1-46c3-8f35-8564e1be9e6a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -303,7 +278,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KnockArena" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -360,7 +335,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-2" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21197411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -371,7 +345,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34717417" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34717417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
