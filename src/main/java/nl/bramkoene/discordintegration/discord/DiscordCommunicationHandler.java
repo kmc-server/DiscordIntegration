@@ -5,10 +5,13 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import nl.bramkoene.discordintegration.DiscordIntegration;
 import nl.bramkoene.discordintegration.enums.Ranks;
+import nl.bramkoene.discordintegration.general.ConfigEntry;
 import nl.bramkoene.discordintegration.sync.SyncRanks;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class DiscordCommunicationHandler extends ListenerAdapter {
@@ -27,7 +30,6 @@ public class DiscordCommunicationHandler extends ListenerAdapter {
      */
     public void onMessageReceived(@NotNull MessageReceivedEvent event){
         if (event.getAuthor().isBot()) return;
-        Bukkit.getLogger().info(event.getAuthor().getAsMention());
         // We don't want to respond to other bot accounts, including ourself
         Message message = event.getMessage();
         String content = message.getContentRaw();
@@ -41,7 +43,13 @@ public class DiscordCommunicationHandler extends ListenerAdapter {
 
         if (content.equals("!syncRanks")){
             if(event.getGuild().getId() == "627082535490289667"){
-                Ranks rank = SyncRanks.getRankFromDiscordUser(event.getAuthor(), event.getGuild());
+
+                for (ConfigEntry entry:
+                        (List<ConfigEntry>)plugin.getConfigManager().getCollectors().getList("linkedAccounts")) {
+                    Ranks rank = SyncRanks.getRankFromDiscordUser(event.getGuild().getMemberById(entry.getDiscordID()).getUser(), event.getGuild());
+                    Player player = plugin.getServer().getPlayer(entry.getMinecraftID());
+                    SyncRanks.giveUserRank(rank, plugin, player);
+                }
             }
         }
 

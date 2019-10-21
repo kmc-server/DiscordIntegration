@@ -1334,3 +1334,175 @@ java.lang.IllegalStateException: zip file closed
 	at com.neovisionaries.ws.client.WritingThread.notifyFinished(WritingThread.java:539) ~[?:?]
 	at com.neovisionaries.ws.client.WritingThread.runMain(WritingThread.java:78) ~[?:?]
 	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45) ~[?:?]
+[13:58:58] [Server thread/INFO]: minestarnl lost connection: Disconnected
+[13:58:58] [Server thread/INFO]: minestarnl left the game
+[14:32:09] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[14:32:09] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[14:32:09] [Server thread/INFO]: Debug logging is disabled
+[14:32:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:32:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:32:09] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:32:09] [Server thread/INFO]: View Distance: 10
+[14:32:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:32:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:32:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:32:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:32:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:32:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:32:09] [Server thread/INFO]: Mob Spawn Range: 8
+[14:32:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:32:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:32:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:32:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:32:09] [Server thread/INFO]: Max TNT Explosions: 100
+[14:32:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:32:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:32:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:32:09] [Server thread/INFO]: View Distance: 10
+[14:32:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:32:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:32:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:32:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:32:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:32:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:32:09] [Server thread/INFO]: Mob Spawn Range: 8
+[14:32:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:32:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:32:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:32:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:32:09] [Server thread/INFO]: Max TNT Explosions: 100
+[14:32:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:32:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:32:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:32:09] [Server thread/INFO]: View Distance: 10
+[14:32:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:32:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:32:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:32:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:32:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:32:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[14:32:09] [Server thread/INFO]: Mob Spawn Range: 8
+[14:32:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:32:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:32:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:32:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:32:09] [Server thread/INFO]: Max TNT Explosions: 100
+[14:32:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:32:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:32:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:32:09] [Server thread/INFO]: [DiscordIntegration] Disabling DiscordIntegration v1.0
+[14:32:09] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:32:10] [Server thread/INFO]: Loaded 6 recipes
+[14:32:10] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:32:10] [Server thread/INFO]: Loaded 6 recipes
+[14:32:10] [Server thread/INFO]: [DiscordIntegration] Loading DiscordIntegration v1.0
+[14:32:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:32:10] [Server thread/INFO]: [DiscordIntegration] Enabling DiscordIntegration v1.0
+[14:32:10] [Server thread/ERROR]: Cannot load plugins\DiscordIntegration\collectors.yml
+org.bukkit.configuration.InvalidConfigurationException: could not determine a constructor for the tag tag:yaml.org,2002:nl.bramkoene.discordintegration.general.ConfigEntry
+ in 'string', line 2, column 3:
+    - !!nl.bramkoene.discordintegratio ... 
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:56) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:183) ~[patched_1.14.4.jar:git-Paper-209]
+	at nl.bramkoene.discordintegration.ConfigManager.setup(ConfigManager.java:49) ~[?:?]
+	at nl.bramkoene.discordintegration.ConfigManager.<init>(ConfigManager.java:16) ~[?:?]
+	at nl.bramkoene.discordintegration.DiscordIntegration.onEnable(DiscordIntegration.java:20) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:859) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.Bukkit.reload(Bukkit.java:610) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:701) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:456) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:418) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-209]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-209]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+Caused by: org.yaml.snakeyaml.constructor.ConstructorException: could not determine a constructor for the tag tag:yaml.org,2002:nl.bramkoene.discordintegration.general.ConfigEntry
+ in 'string', line 2, column 3:
+    - !!nl.bramkoene.discordintegratio ... 
+      ^
+
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructUndefined.construct(SafeConstructor.java:541) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequenceStep2(BaseConstructor.java:364) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequence(BaseConstructor.java:348) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq.construct(SafeConstructor.java:499) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:453) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:184) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:434) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:521) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:28) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:159) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:146) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.14.4.jar:git-Paper-209]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:54) ~[patched_1.14.4.jar:git-Paper-209]
+	... 22 more
+[14:32:10] [Server thread/INFO]: [DiscordIntegration] Config Created
+[14:32:11] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
+[14:32:11] [Server thread/INFO]: CONSOLE: Reload complete.
+[14:32:11] [Server thread/INFO]: Timings Reset
+[14:32:11] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[14:32:12] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!

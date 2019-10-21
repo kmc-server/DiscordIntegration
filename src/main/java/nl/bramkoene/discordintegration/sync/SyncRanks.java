@@ -5,6 +5,9 @@ import net.dv8tion.jda.api.entities.Role;
 import net.dv8tion.jda.api.entities.User;
 import nl.bramkoene.discordintegration.DiscordIntegration;
 import nl.bramkoene.discordintegration.enums.Ranks;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -38,7 +41,14 @@ public class SyncRanks {
         return Ranks.KMCER;
     }
 
-    public static void giveUserRank(Ranks rank, DiscordIntegration plugin){
-
+    /**
+     * Adds a certain rank to the player in minecraft
+     * @param rank the rank enum to give to the player
+     * @param plugin the plugin instance needed
+     * @param player A player instance of the player to which to add the rank
+     */
+    public static void giveUserRank(@NotNull Ranks rank, @NotNull DiscordIntegration plugin, @NotNull Player player){
+        String command = "/lp user " + player.getName() + "parent add " + rank.label;
+        plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), command);
     }
 }

@@ -48,7 +48,7 @@ public class LinkmcCommandHandler implements CommandExecutor {
                 entries.addAll(entries1);
             }
             entries.add(entry);
-            plugin.getConfigManager().getCollectors().set("GameSpawn", entries);
+            plugin.getConfigManager().getCollectors().set("linkedAccounts", entries);
             plugin.getConfigManager().saveCollectors();
         }
 
