@@ -1,0 +1,4 @@
+GameSpawn:
+- !!nl.bramkoene.discordintegration.general.ConfigEntry
+  discordID: '265775528982740992'
+  minecraftID: !!java.util.UUID 'e64e9f15-7cf2-427e-87fa-8dd7b253a58a'

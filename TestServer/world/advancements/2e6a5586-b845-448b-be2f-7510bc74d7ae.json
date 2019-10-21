@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2019-10-10 22:11:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2019-10-10 22:08:56 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

@@ -12,6 +12,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "2e6a5586-b845-448b-be2f-7510bc74d7ae",
+    "name": "netlob",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "c71dc23a-6755-36dd-ad66-ee66adf8e428",
     "name": "minestarnl",
     "level": 4,

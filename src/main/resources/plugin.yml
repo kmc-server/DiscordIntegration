@@ -2,3 +2,7 @@ name: DiscordIntegration
 version: ${project.version}
 main: nl.bramkoene.discordintegration.DiscordIntegration
 api-version: 1.13
+commands:
+  linkmc:
+    description: Links minecraft to your discord account
+    usage: /linkmc <code from discord>

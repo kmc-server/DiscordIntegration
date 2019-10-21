@@ -3,7 +3,7 @@ package nl.bramkoene.discordintegration;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
-import nl.bramkoene.discordintegration.discord.ConfigManager;
+import nl.bramkoene.discordintegration.commands.LinkmcCommandHandler;
 import nl.bramkoene.discordintegration.discord.DiscordCommunicationHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -41,6 +41,7 @@ public final class DiscordIntegration extends JavaPlugin {
 
     void setupApi() throws Exception{
         api = new JDABuilder(secret.token).build();
+        this.getCommand("linkmc").setExecutor(new LinkmcCommandHandler(this));
     }
 
     public ConfigManager getConfigManager() {

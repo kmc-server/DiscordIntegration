@@ -13,7 +13,7 @@
 config-version: 12
 settings:
   debug: false
-  bungeecord: false
+  bungeecord: true
   late-bind: false
   moved-too-quickly-multiplier: 10.0
   timeout-time: 60

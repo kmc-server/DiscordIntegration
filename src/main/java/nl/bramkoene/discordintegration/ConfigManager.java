@@ -1,4 +1,4 @@
-package nl.bramkoene.discordintegration.discord;
+package nl.bramkoene.discordintegration;
 
 import nl.bramkoene.discordintegration.DiscordIntegration;
 import org.bukkit.ChatColor;

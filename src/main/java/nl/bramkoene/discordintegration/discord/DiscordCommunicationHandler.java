@@ -1,18 +1,14 @@
 package nl.bramkoene.discordintegration.discord;
 
-import kong.unirest.HttpResponse;
-import kong.unirest.JsonNode;
-import kong.unirest.Unirest;
-import net.dv8tion.jda.api.entities.Message;
-import net.dv8tion.jda.api.entities.MessageChannel;
-import net.dv8tion.jda.api.entities.PrivateChannel;
+import net.dv8tion.jda.api.entities.*;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import nl.bramkoene.discordintegration.DiscordIntegration;
+import nl.bramkoene.discordintegration.enums.Ranks;
+import nl.bramkoene.discordintegration.sync.SyncRanks;
 import org.bukkit.Bukkit;
+import org.jetbrains.annotations.NotNull;
 
-import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class DiscordCommunicationHandler extends ListenerAdapter {
@@ -22,8 +18,14 @@ public class DiscordCommunicationHandler extends ListenerAdapter {
         this.plugin = plugin;
     }
 
+
     @Override
-    public void onMessageReceived(MessageReceivedEvent event){
+    /**
+     * Does a function when message received
+     * @param event
+     * @return void
+     */
+    public void onMessageReceived(@NotNull MessageReceivedEvent event){
         if (event.getAuthor().isBot()) return;
         Bukkit.getLogger().info(event.getAuthor().getAsMention());
         // We don't want to respond to other bot accounts, including ourself
@@ -37,35 +39,21 @@ public class DiscordCommunicationHandler extends ListenerAdapter {
             channel.sendMessage("Pong!").queue(); // Important to call .queue() on the RestAction returned by sendMessage(...)
         }
 
+        if (content.equals("!syncRanks")){
+            if(event.getGuild().getId() == "627082535490289667"){
+                Ranks rank = SyncRanks.getRankFromDiscordUser(event.getAuthor(), event.getGuild());
+            }
+        }
+
         if(content.equals("!linkmc")){
             MessageChannel channel = event.getChannel();
             event.getAuthor().openPrivateChannel().queue(new Consumer<PrivateChannel>() {
                 @Override
                 public void accept(PrivateChannel privateChannel) {
-                    privateChannel.sendMessage("To get started enter your uuid. This can be found at: https://mcuuid.net Please enter the full UUID")
+                    privateChannel.sendMessage("To get started enter the following command in minecraft: /linkmc " + AccountLinker.generateVerifyCode(event.getAuthor()))
                             .queue();
                 }
             });
-        }
-
-
-
-        try{
-            CompletableFuture<HttpResponse<JsonNode>> future = Unirest.get("https://api.mojang.com/users/profiles/minecraft/" + content)
-                    .asJsonAsync(response -> {
-                        int code = response.getStatus();
-                        JsonNode body = response.getBody();
-                        Bukkit.getLogger().info(body.toPrettyString());
-                        UUID uuid = UUID.fromString(content);
-                        Bukkit.getPlayer(uuid);
-                        plugin.getConfigManager().getPlayers().set("ConfirmedPlayers." + uuid.toString(), event.getAuthor().getId());
-                        plugin.getConfigManager().saveCollectors();
-                        String messagePlayer = "Thank you. This is a valid uuid and your account is now linked";
-                        event.getChannel().sendMessage(messagePlayer).queue();
-                    });
-        } catch (IllegalArgumentException exception){
-            //handle the case where string is not valid UUID
-            event.getChannel().sendMessage("This is not a valid uuid please try again").queue();
         }
     }
 }
